@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container">
-    <div class="row">
+
         <div class="logobox">
     <h1>neusv发现</h1>
 </div>
@@ -74,6 +74,6 @@
                 </div>
             </div>
         </form>
-    </div>
+
 </div>
 @endsection
