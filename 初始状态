@@ -1,11 +1,34 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
+    <style>
+        *{
+            font-family: "微软雅黑";
+            margin: 0;
+            padding: 0;
+        }
+        body {
 
-        <div class="logobox">
-    <h1>neusv发现</h1>
-</div>
+            padding-bottom: 50px;
+        }
+        div {
+            display: block;
+        }
+        .logobox{
+            position: relative;
+            margin: 0 auto 30px;
+            width: 330px;
+            padding-top: 40px;
+            z-index: 1;
+        }
+        .center-block{
+            margin-left: 25%;
+        }
+        </style>
+<div class="container">
+    <div class="logobox">
+
+    </div>
 
     <div class="center-block">
         <form class="form-horizontal">
@@ -74,6 +97,7 @@
                 </div>
             </div>
         </form>
-
+    </div>
+    </div>
 </div>
 @endsection
